@@ -1,14 +1,12 @@
 # Animated
+***Note this wasn't originally created by me, It is made from open source and some blog posts***
 
 Animated takes a 2D vector illustration and animates its containing curves in real-time based on the recognition result from PoseNet and FaceMesh. It borrows the idea of skeleton-based animation from computer graphics and applies it to vector characters.
 
 This is running in the browser in realtime using [TensorFlow.js](https://www.tensorflow.org/js). Check out more cool TF.js demos [here](https://www.tensorflow.org/js/demos).
 
 *This is not an officially supported Google product.*
-
-<img src="/resources/gifs/avatar-new-1.gif?raw=true" alt="cameraDemo" style="width: 250px;"/>
-
-<img src="/resources/gifs/avatar-new-full-body.gif?raw=true" alt="cameraDemo" style="width: 250px;"/>
+*But does use google's open source*
 
 In skeletal animation a character is represented in two parts:
 1. a surface used to draw the character, and 
@@ -16,21 +14,13 @@ In skeletal animation a character is represented in two parts:
 
 In Animated, the surface is defined by the 2D vector paths in the input SVG files. For the bone structure, Animated provides a predefined rig (bone hierarchy) representation, designed based on the keypoints from PoseNet and FaceMesh. This bone structure’s initial pose is specified in the input SVG file, along with the character illustration, while the real time bone positions are updated by the recognition result from ML models.
 
-<img src="https://firebasestorage.googleapis.com/v0/b/pose-animator-demo.appspot.com/o/ml-keypoints.png?alt=media" style="width:250px;"/>
-
-<img src="/resources/gifs/avatar-new-bezier-1.gif?raw=true" alt="cameraDemo" style="width: 250px;"/>
-
-// TODO: Add blog post link.
-For more details on its technical design please check out this blog post.
-
-### Demo 1: [Camera feed]()
-
-The camera demo animates a 2D avatar in real-time from a webcam video stream.
 
 
-### Demo 2: [Static image]()
 
-The static image demo shows the avatar positioned from a single image.
+
+The camera  animates a 2D avatar in real-time from a webcam video stream and a static place.
+
+
 
 ## Build And Run
 
@@ -73,3 +63,10 @@ It should also run on Chrome on Android and potentially more Android mobile brow
 1. Embed the sample skeleton in ‘skeleton’ group into your illustration by moving the joints around.
 1. Export the file as an SVG file.
 1. Open [Animated camera demo](). Once everything loads, drop your SVG file into the browser tab. You should be able to see it come to life :D
+
+# Credits
+ * (all credits go to open source)
+ * google developers platform
+ * stackoverflow
+ * tensorflowjs(greate softwre by the way)
+ * blogs from medium.com and dev.to
