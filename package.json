@@ -13,6 +13,7 @@
     "@tensorflow-models/posenet": "^2.2.1",
     "@tensorflow/tfjs": "^3.8.0",
     "@tensorflow/tfjs-converter": "^1.7.0",
+    "gh-pages": "^2.1.1",
     "@tensorflow/tfjs-core": "^1.7.0",
     "face-api.js": "^0.22.1",
     "paper": "^0.12.15",
@@ -22,6 +23,7 @@
     "watch": "cross-env NODE_ENV=development parcel index.html --no-source-maps --no-hmr --open ",
     "build": "cross-env NODE_ENV=production parcel build index.html --no-source-maps --public-url ./",
     "build-camera": "cross-env NODE_ENV=production parcel build camera.html --public-url ./",
+    "deploy": "gh-pages -b master -d build",
     "lint": "eslint .",
     "link-local": "yalc link"
   },
