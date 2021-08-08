@@ -1,5 +1,5 @@
 # Animated
-*Link to preview website is coming soon*<br>
+*Link to preview website: https://s-codes14.github.io/animated*<br>
 ***Note this wasn't originally created by me, It is made from open source and some blog posts***
 
 Animated takes a 2D vector illustration and animates its containing curves in real-time based on the recognition result from PoseNet and FaceMesh. It borrows the idea of skeleton-based animation from computer graphics and applies it to vector characters.
@@ -26,15 +26,23 @@ The camera  animates a 2D avatar in real-time from a webcam video stream and a s
 ## Build And Run
 
 Install dependencies and prepare the build directory:
-
+yarn
 ```sh
 yarn
 ```
+npm
+```sh
+npm install
+```
 
 To watch files for changes, and launch a dev server:
-
+yarn
 ```sh
 yarn watch
+```
+npm 
+```sh
+npm run watch
 ```
 
 ## Platform support
@@ -63,7 +71,7 @@ It should also run on Chrome on Android and potentially more Android mobile brow
 	```
 1. Embed the sample skeleton in ‘skeleton’ group into your illustration by moving the joints around.
 1. Export the file as an SVG file.
-1. Open [Animated camera demo](). Once everything loads, drop your SVG file into the browser tab. You should be able to see it come to life :D
+1. Open [Animated camera demo](https://s-codes14.github.io/animated/camera.html). Once everything loads, drop your SVG file into the browser tab. You should be able to see it come to life :D
 
 # Credits
  * (all credits go to open source)
