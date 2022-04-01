@@ -11,7 +11,7 @@
   "dependencies": {
     "@tensorflow-models/facemesh": "^0.0.3",
     "@tensorflow-models/posenet": "^2.2.1",
-    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs": "^3.15.0",
     "@tensorflow/tfjs-converter": "^1.7.0",
     "@tensorflow/tfjs-core": "^1.7.0",
     "face-api.js": "^0.22.1",
