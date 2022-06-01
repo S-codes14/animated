@@ -15,7 +15,7 @@
     "@tensorflow/tfjs-converter": "^1.7.0",
     "@tensorflow/tfjs-core": "^1.7.0",
     "face-api.js": "^0.22.1",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^4.0.0",
     "paper": "^0.12.15",
     "stats.js": "^0.17.0"
   },
